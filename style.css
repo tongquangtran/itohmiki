@@ -1,0 +1,65 @@
+.gradient-background {
+    background: linear-gradient(300deg, #6a89cc, #82ccdd, #b8e994);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+#banner {
+    text-align: center;
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 10px;
+}
+
+.title > h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Bad Script', cursive;
+}
+
+.title > h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.container {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.avatar {
+    height: 250px;
+    width: 250px;
+    background-image: url('./assets/images/avatar.jpg');
+    background-size: cover;
+    background-position: center;
+}
