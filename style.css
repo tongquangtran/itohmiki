@@ -20,7 +20,7 @@
     text-align: center;
     background-color: #e4f9f5;
     position: relative;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .title > h1 {
@@ -62,4 +62,10 @@
     background-image: url('./assets/images/avatar.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(2.5px);
 }
