@@ -71,10 +71,25 @@
 }
 
 h3.custom-border {
-    background-color: #E5E0FF;
+    background-color: #0033a1;
+    font-weight: bold;
+    color: white;
+}
+
+h4.custom-border-2 {
+    background-color: #ACBCFF;
     font-weight: bold;
 }
 
 .custom-text-justify {
     text-align: justify;
+}
+
+.custom-img {
+    border: 2px lightgrey solid;
+    width: 700px !important;
+    height: 300px !important;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
 }
