@@ -69,3 +69,12 @@
     background-color: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(2.5px);
 }
+
+h3.custom-border {
+    background-color: #E5E0FF;
+    font-weight: bold;
+}
+
+.custom-text-justify {
+    text-align: justify;
+}
