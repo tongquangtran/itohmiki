@@ -81,12 +81,17 @@ h4.custom-border-2 {
     font-weight: bold;
 }
 
+h4.custom-border-3 {
+    background-color: #B4E4FF;
+    font-weight: bold;
+}
+
 .custom-text-justify {
     text-align: justify;
 }
 
 .custom-img {
-    border: 2px lightgrey solid;
+    border: 1px lightgray solid;
     width: 700px !important;
     height: 300px !important;
     background-size: cover;
