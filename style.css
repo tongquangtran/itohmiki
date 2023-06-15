@@ -67,22 +67,23 @@
 .text-shadow-1 {
     text-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 1);
     background-color: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(2.5px);
+    /* backdrop-filter: blur(25%); */
 }
 
 h3.custom-border {
-    background-color: #0033a1;
+    background-color: #73A9AD;
     font-weight: bold;
     color: white;
+    margin-top: 0.5rem;
 }
 
 h4.custom-border-2 {
-    background-color: #ACBCFF;
+    background-color: #B3C890;
     font-weight: bold;
 }
 
 h4.custom-border-3 {
-    background-color: #B4E4FF;
+    background-color: #DBDFAA;
     font-weight: bold;
 }
 
@@ -91,10 +92,12 @@ h4.custom-border-3 {
 }
 
 .custom-img {
-    border: 1px lightgray solid;
-    width: 650px !important;
-    height: 300px !important;
+    border: 1px #C2DEDC solid;
+    width: auto;
+    height: 250px;
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
