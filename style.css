@@ -142,3 +142,9 @@ h4.custom-border-3 {
     border: 5px dotted #B3C890;
     border-radius: 1rem;
 }
+
+.custom-btn {
+    background-size: cover;
+    background-position: center;
+    background-image: url('./assets/images/quote-bg-3.jpg');
+}
